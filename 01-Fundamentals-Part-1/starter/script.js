@@ -70,6 +70,7 @@ GOOD LUCK 😀
 
 let dolphinAv = (96 + 108 + 89) / 3
 let koalaAv = (88 + 91 + 110) / 3
+console.log(dolphinAv, koalaAv)
 
 if (dolphinAv > koalaAv) {
   console.log("Dolphins win");
@@ -84,7 +85,7 @@ if ((dolphinAv || koalaAv) > 100) {
     console.log("Dolphins win");
   } else if (dolphinAv < koalaAv) {
     console.log("Koalas win");
-  } else if {
+  } else {
     console.log("tie");
   };
 } else {
